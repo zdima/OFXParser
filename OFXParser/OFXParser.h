@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#import "OFXDocument.h"
+#import "OFXStatement.h"
+#import "OFXTransaction.h"
+#import "OFXLadgerBalance.h"
+
 @interface OFXParser : NSObject
+
++(OFXDocument*)documentFromOFXFile:(NSURL*)filepath error:(NSError**)error;
 
 @end

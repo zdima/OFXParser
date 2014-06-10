@@ -14,6 +14,20 @@
 		5F20EE5A191D04D9007FB9B3 /* libOFXParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20EE41191D04D8007FB9B3 /* libOFXParser.a */; };
 		5F20EE60191D04D9007FB9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F20EE5E191D04D9007FB9B3 /* InfoPlist.strings */; };
 		5F20EE62191D04D9007FB9B3 /* OFXParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE61191D04D9007FB9B3 /* OFXParserTests.m */; };
+		5F20EE6F191DA716007FB9B3 /* OFXDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE6D191DA716007FB9B3 /* OFXDelegate.h */; };
+		5F20EE70191DA716007FB9B3 /* OFXDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE6E191DA716007FB9B3 /* OFXDelegate.m */; };
+		5F20EE73191DA7B7007FB9B3 /* OFXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE71191DA7B7007FB9B3 /* OFXDocument.h */; };
+		5F20EE74191DA7B7007FB9B3 /* OFXDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE72191DA7B7007FB9B3 /* OFXDocument.m */; };
+		5F20EE75191DA8E6007FB9B3 /* test.ofx in Resources */ = {isa = PBXBuildFile; fileRef = 5F20EE6B191DA5B4007FB9B3 /* test.ofx */; };
+		5F20EE78191DAF10007FB9B3 /* OFXIgnoreSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE76191DAF10007FB9B3 /* OFXIgnoreSection.h */; };
+		5F20EE79191DAF10007FB9B3 /* OFXIgnoreSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE77191DAF10007FB9B3 /* OFXIgnoreSection.m */; };
+		5F20EE7C191DB64A007FB9B3 /* OFXStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE7A191DB64A007FB9B3 /* OFXStatement.h */; };
+		5F20EE7D191DB64A007FB9B3 /* OFXStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE7B191DB64A007FB9B3 /* OFXStatement.m */; };
+		5F20EE80191DB879007FB9B3 /* OFXTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE7E191DB879007FB9B3 /* OFXTransaction.h */; };
+		5F20EE81191DB879007FB9B3 /* OFXTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE7F191DB879007FB9B3 /* OFXTransaction.m */; };
+		5F20EE83191DCC1F007FB9B3 /* OFXParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE82191DCC1F007FB9B3 /* OFXParserDelegate.h */; };
+		5F20EE8C192006B6007FB9B3 /* OFXLadgerBalance.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F20EE8A192006B6007FB9B3 /* OFXLadgerBalance.h */; };
+		5F20EE8D192006B6007FB9B3 /* OFXLadgerBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20EE8B192006B6007FB9B3 /* OFXLadgerBalance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,20 @@
 		5F20EE5D191D04D9007FB9B3 /* OFXParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OFXParserTests-Info.plist"; sourceTree = "<group>"; };
 		5F20EE5F191D04D9007FB9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F20EE61191D04D9007FB9B3 /* OFXParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OFXParserTests.m; sourceTree = "<group>"; };
+		5F20EE6B191DA5B4007FB9B3 /* test.ofx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.ofx; sourceTree = "<group>"; };
+		5F20EE6D191DA716007FB9B3 /* OFXDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXDelegate.h; sourceTree = "<group>"; };
+		5F20EE6E191DA716007FB9B3 /* OFXDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXDelegate.m; sourceTree = "<group>"; };
+		5F20EE71191DA7B7007FB9B3 /* OFXDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXDocument.h; sourceTree = "<group>"; };
+		5F20EE72191DA7B7007FB9B3 /* OFXDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXDocument.m; sourceTree = "<group>"; };
+		5F20EE76191DAF10007FB9B3 /* OFXIgnoreSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXIgnoreSection.h; sourceTree = "<group>"; };
+		5F20EE77191DAF10007FB9B3 /* OFXIgnoreSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXIgnoreSection.m; sourceTree = "<group>"; };
+		5F20EE7A191DB64A007FB9B3 /* OFXStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXStatement.h; sourceTree = "<group>"; };
+		5F20EE7B191DB64A007FB9B3 /* OFXStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXStatement.m; sourceTree = "<group>"; };
+		5F20EE7E191DB879007FB9B3 /* OFXTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXTransaction.h; sourceTree = "<group>"; };
+		5F20EE7F191DB879007FB9B3 /* OFXTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXTransaction.m; sourceTree = "<group>"; };
+		5F20EE82191DCC1F007FB9B3 /* OFXParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXParserDelegate.h; sourceTree = "<group>"; };
+		5F20EE8A192006B6007FB9B3 /* OFXLadgerBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFXLadgerBalance.h; sourceTree = "<group>"; };
+		5F20EE8B192006B6007FB9B3 /* OFXLadgerBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OFXLadgerBalance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +136,20 @@
 			children = (
 				5F20EE4D191D04D8007FB9B3 /* OFXParser.h */,
 				5F20EE4E191D04D8007FB9B3 /* OFXParser.m */,
+				5F20EE6D191DA716007FB9B3 /* OFXDelegate.h */,
+				5F20EE6E191DA716007FB9B3 /* OFXDelegate.m */,
+				5F20EE71191DA7B7007FB9B3 /* OFXDocument.h */,
+				5F20EE72191DA7B7007FB9B3 /* OFXDocument.m */,
+				5F20EE76191DAF10007FB9B3 /* OFXIgnoreSection.h */,
+				5F20EE77191DAF10007FB9B3 /* OFXIgnoreSection.m */,
+				5F20EE7A191DB64A007FB9B3 /* OFXStatement.h */,
+				5F20EE7B191DB64A007FB9B3 /* OFXStatement.m */,
+				5F20EE7E191DB879007FB9B3 /* OFXTransaction.h */,
+				5F20EE7F191DB879007FB9B3 /* OFXTransaction.m */,
 				5F20EE4B191D04D8007FB9B3 /* Supporting Files */,
+				5F20EE82191DCC1F007FB9B3 /* OFXParserDelegate.h */,
+				5F20EE8A192006B6007FB9B3 /* OFXLadgerBalance.h */,
+				5F20EE8B192006B6007FB9B3 /* OFXLadgerBalance.m */,
 			);
 			path = OFXParser;
 			sourceTree = "<group>";
@@ -133,6 +174,7 @@
 		5F20EE5C191D04D9007FB9B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F20EE6B191DA5B4007FB9B3 /* test.ofx */,
 				5F20EE5D191D04D9007FB9B3 /* OFXParserTests-Info.plist */,
 				5F20EE5E191D04D9007FB9B3 /* InfoPlist.strings */,
 			);
@@ -146,6 +188,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F20EE78191DAF10007FB9B3 /* OFXIgnoreSection.h in Headers */,
+				5F20EE6F191DA716007FB9B3 /* OFXDelegate.h in Headers */,
+				5F20EE83191DCC1F007FB9B3 /* OFXParserDelegate.h in Headers */,
+				5F20EE80191DB879007FB9B3 /* OFXTransaction.h in Headers */,
+				5F20EE8C192006B6007FB9B3 /* OFXLadgerBalance.h in Headers */,
+				5F20EE7C191DB64A007FB9B3 /* OFXStatement.h in Headers */,
+				5F20EE73191DA7B7007FB9B3 /* OFXDocument.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F20EE60191D04D9007FB9B3 /* InfoPlist.strings in Resources */,
+				5F20EE75191DA8E6007FB9B3 /* test.ofx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F20EE8D192006B6007FB9B3 /* OFXLadgerBalance.m in Sources */,
+				5F20EE81191DB879007FB9B3 /* OFXTransaction.m in Sources */,
+				5F20EE7D191DB64A007FB9B3 /* OFXStatement.m in Sources */,
+				5F20EE74191DA7B7007FB9B3 /* OFXDocument.m in Sources */,
+				5F20EE70191DA716007FB9B3 /* OFXDelegate.m in Sources */,
 				5F20EE4F191D04D8007FB9B3 /* OFXParser.m in Sources */,
+				5F20EE79191DAF10007FB9B3 /* OFXIgnoreSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +463,7 @@
 				5F20EE67191D04D9007FB9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F20EE68191D04D9007FB9B3 /* Build configuration list for PBXNativeTarget "OFXParserTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +472,7 @@
 				5F20EE6A191D04D9007FB9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
